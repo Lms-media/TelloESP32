@@ -190,8 +190,8 @@ public:
     // ----------------------------------
 
     static const unsigned long CONNECTION_TIMEOUT = 1000; // 1 seconds (for connection)
-    static const unsigned long RESPONSE_TIMEOUT = 10000;    // 10 seconds (for command responses)
-    static const unsigned long TIME_BTW_COMMANDS = 500;    // 500 ms between commands
+    static const unsigned long RESPONSE_TIMEOUT = 1000;    // 10 seconds (for command responses)
+    static const unsigned long TIME_BTW_COMMANDS = 50;    // 50 ms between commands
     static const unsigned long TIME_BTW_RC_CONTROL_COMMANDS = 50; // 50 ms between RC control updates
 
     // ----------------------------------
